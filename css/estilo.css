@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.imagenes
+ {
+  margin-top:10px;
+  text-align:center; 
+ }
+
+#imagenesgaleria
+ {
+   border-style:groove;
+   border-color:black;
+   text-align:center;
+ }
+
+#imagenesgaleria img
+ {
+   opacity:0.5;
+   border-style:solid;
+   border-color: yellow;
+   
+ }
+
+#imagenesgaleria img:hover
+ {
+  opacity:1;
+ }
